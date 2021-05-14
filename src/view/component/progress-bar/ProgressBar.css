@@ -1,0 +1,27 @@
+.progressSymbol {
+	color: red;
+	border: 1px solid red;
+	border-radius: 20px;
+	font-size: 20px;
+	padding: 2px 7px;
+}
+
+.progressBar {
+	background-color: gray;
+	width: 350px;
+	border-radius: 25px;
+	margin: 0 10px;
+}
+
+.progress {
+	background-color: red;
+	max-width: 350px;
+	border-radius: 25px;
+	height: 100%;
+}
+
+.progressContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
